@@ -1,0 +1,376 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">iFit</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Main Screen</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"> Back</string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="social_media_button">Social Media </string>
+    <string name="reset_password">Reset Password</string>
+
+
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="submit">SUBMIT </string>
+    <string name="addfriends">ADD FRIENDS</string>
+    <string name="invite">INVITE FRIENDS</string>
+    <array name="language_name">
+        <item>Select Language</item>
+        <item>Abkhazian ab</item>
+        <item>Afar aa</item>
+        <item>Afrikaans af</item>
+        <item>Akan ak</item>
+        <item>Albanian sq</item>
+        <item>Amharic am</item>
+        <item>Aragonese an</item>
+        <item>Armenian hy</item>
+        <item>Assamese as</item>
+        <item>Avaric av</item>
+        <item>Arabic ar</item>
+        <item>Avestan ae</item>
+        <item>Aymara ay</item>
+        <item>Azerbaijani az</item>
+        <item>Bambara bm</item>
+        <item>Bashkir ba</item>
+        <item>Basque eu</item>
+        <item>Belarusian be</item>
+        <item>Bengali bn</item>
+        <item>Bihari bh</item>
+        <item>Bislama bi</item>
+        <item>Bosnian bs</item>
+        <item>Breton br</item>
+        <item>Bulgarian bg</item>
+        <item>Burmese my</item>
+        <item>Catalan ca</item>
+        <item>Chamorro ch</item>
+        <item>Chechen ce</item>
+        <item>Chinese zh</item>
+        <item>Chuvash cv</item>
+        <item>Cornish kw</item>
+        <item>Corsican co</item>
+        <item>Cree cr</item>
+        <item>Croatian hr</item>
+        <item>Czech cs</item>
+        <item>Danish da</item>
+        <item>Dutch nl</item>
+        <item>Dzongkha dz</item>
+        <item>English en</item>
+        <item>Esperanto eo</item>
+        <item>Estonian et</item>
+        <item>Ewe ee</item>
+        <item>Faroese fo</item>
+        <item>Fijian fj</item>
+        <item>Finnish fi</item>
+        <item>French fr</item>
+        <item>Galician gl</item>
+        <item>Gaelic gv</item>
+        <item>Georgian ka</item>
+        <item>German de</item>
+        <item>Greek el</item>
+        <item>Greenlandic kl</item>
+        <item>Guarani gn</item>
+        <item>Gujarati gu</item>
+        <item>Haitian ht</item>
+        <item>Hausa ha</item>
+        <item>Hebrew he</item>
+        <item>Herero hz</item>
+        <item>Hindi hi</item>
+        <item>HiriMotu ho</item>
+        <item>Hungarian hu</item>
+        <item>Icelandic is</item>
+        <item>Ido io</item>
+        <item>Igbo ig</item>
+        <item>Indonesian in</item>
+        <item>Interlingua ia</item>
+        <item>Interlingue ie</item>
+        <item>Inuktitut iu</item>
+        <item>Inupiak ik</item>
+        <item>Irish ga</item>
+        <item>Italian it</item>
+        <item>Japanese ja</item>
+        <item>Javanese jv</item>
+        <item>Kannada kn</item>
+        <item>Kanuri kr</item>
+        <item>Kashmiri ks</item>
+        <item>Kazakh kk</item>
+        <item>Khmer km</item>
+        <item>Kikuyu ki</item>
+        <item>Kinyarwanda rw</item>
+        <item>Kirundi rn</item>
+        <item>Kyrgyz ky</item>
+        <item>Komi kv</item>
+        <item>Kongo kg</item>
+        <item>Korean ko</item>
+        <item>Kurdish ku</item>
+        <item>Kwanyama kj</item>
+        <item>Lao lo</item>
+        <item>Latin la</item>
+        <item>Latvian lv</item>
+        <item>Lingala ln</item>
+        <item>Lithuanian lt</item>
+        <item>Luga-Katanga lu</item>
+        <item>Ganda lg</item>
+        <item>Luxembourgish lb</item>
+        <item>Manx gv</item>
+        <item>Macedonian mk</item>
+        <item>Malagasy mg</item>
+        <item>Malay ms</item>
+        <item>Malayalam ml</item>
+        <item>Maltese mt</item>
+        <item>Maori mi</item>
+        <item>Marathi mr</item>
+        <item>Marshallese mh</item>
+        <item>Moldavian mo</item>
+        <item>Mongolian mn</item>
+        <item>Nauru na</item>
+        <item>Navajo nv</item>
+        <item>Ndonga ng</item>
+        <item>Northern-Ndebele nd</item>
+        <item>Nepali ne</item>
+        <item>Norwegian no</item>
+        <item>Norwegian-bokmål nb</item>
+        <item>Norwegian-Nynorsk nn</item>
+        <item>Nuosu ii</item>
+        <item>Occitan oc</item>
+        <item>Ojibwe oj</item>
+        <item>Old-Church-Slavonic cu</item>
+        <item>Oriya or</item>
+        <item>Oromo om</item>
+        <item>Ossetian os</item>
+        <item>Pāli pi</item>
+        <item>Pushto ps</item>
+        <item>Persian fa</item>
+        <item>Polish pl</item>
+        <item>Portuguese pt</item>
+        <item>Punjabi pa</item>
+        <item>Quechua qu</item>
+        <item>Romansh rm</item>
+        <item>Romanian ro</item>
+        <item>Russian ru</item>
+        <item>Sami se</item>
+        <item>Samoan sm</item>
+        <item>Sango sg</item>
+        <item>Sanskrit sa</item>
+        <item>Serbian sr</item>
+        <item>Serbo-Croatian sh</item>
+        <item>Sesotho st</item>
+        <item>Setswana tn</item>
+        <item>Shona sn</item>
+        <item>Sichuan-Yi ii</item>
+        <item>Sindhi sd</item>
+        <item>Sinhalese si</item>
+        <item>Siswati ss</item>
+        <item>Slovak sk</item>
+        <item>Slovenian sl</item>
+        <item>Somali so</item>
+        <item>Southern-Ndebele nr</item>
+        <item>Spanish es</item>
+        <item>Sundanese su</item>
+        <item>Swahili sw</item>
+        <item>Swati ss</item>
+        <item>Swedish sv</item>
+        <item>Tagalog tl</item>
+        <item>Tahitian ty</item>
+        <item>Tajik tg</item>
+        <item>Tamil ta</item>
+        <item>Tatar tt</item>
+        <item>Telugu te</item>
+        <item>Thai th</item>
+        <item>Tibetan bo</item>
+        <item>Tigrinya ti</item>
+        <item>Tonga to</item>
+        <item>Tsonga ts</item>
+        <item>Turkish tr</item>
+        <item>Turkmen tk</item>
+        <item>Twi tw</item>
+        <item>Uyghur ug</item>
+        <item>Ukrainian uk</item>
+        <item>Urdu ur</item>
+        <item>Uzbek uz</item>
+        <item>Venda ve</item>
+        <item>Vietnamese vi</item>
+        <item>Volapük vo</item>
+        <item>Wallon wa</item>
+        <item>Welsh cy</item>
+        <item>Wolof wo</item>
+        <item>Western-Frisian fy</item>
+        <item>Xhosa xh</item>
+        <item>Yiddish yi</item>
+        <item>Yoruba yo</item>
+        <item>Zhuang-Chuang za</item>
+        <item>Zulu zu</item>
+    </array>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">1213696545396652</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb1213696545396652</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">vzTm7qk0aRsG7xntW2kTXFSkt</string>
+
+    <string name="twitter_consumer_secret" translatable="false">lhvML8QdCDkVf6ywQwNfRDbDB6IAql9YBqnwwpE0nGIp3FIGEm</string>
+
+
+    <string name="submit_blog">Submit</string>
+    <string name="tittle">Tittle</string>
+    <string name="writer">Writer</string>
+    <string name="bolg_content">Write Content Here </string>
+
+
+    <string name="list_demo">List Demo</string>
+    <string name="grid_demo">Grid Demo</string>
+    <string name="second_list_demo">Second List Demo</string>
+    <string name="second_grid_demo">Second Grid Demo</string>
+
+    <string name="ab_list_title">Stories to read</string>
+    <string name="ab_grid_title">Offers Zone</string>
+
+    <string name="got_titletext">Who Will Ride The Third Dragon In \'Game Of Thrones\' Season 7?</string>
+    <string name="got_image_url">http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/image_embed/public/2016/04/29/game-thrones-daenerys-dragon-drogon.jpg</string>
+    <string name="got_subtext">Game of Thrones season 7 will kick off a new age of Game of Thrones, with the show becoming a true epic fantasy for the first time. Don’t worry, it will remain a high political drama too, but the war between ice and fire isn’t far off now, and Daenerys Targaryen seems destined to lead the fight</string>
+    <string name="got_summarytext">You\'ve shown interest in Game of Thrones series</string>
+
+    <string name="ndtv_titletext">Agni 5, India\'s Longest Range Nuclear Capable Missile, Successfully Test Fired: 10 Points</string>
+    <string name="ndtv_subtext">Agni-5, India\'s longest range nuclear capable missile, was successfully test fired from the Kalam Island off Odisha coast today by the Defence Research and Development Organisation or DRDO. The intercontinental surface-to-surface ballistic missile, the latest in India\'s \"Agni\" family of medium to intercontinental range missiles, with new technology for navigation and guidance, gives India the strategic depth it needs to contain its enemies, say scientists. Ready to be deployed, the Agni-5 will soon join India\'s military arsenal</string>
+    <string name="ndtv_image_url">http://i.ndtvimg.com/i/2016-12/agni-5_650x400_71482721510.jpg</string>
+    <string name="ndtv_summarytext">You\'ve shown interest in Nuclear Capable Missles</string>
+
+    <string name="op_titletext">OnePlus releases leather case for OnePlus 3 and 3T</string>
+    <string name="op_subtext">OnePlus has released a leather case for the OnePlus 3/3T. Even though there are several cases for the OnePlus 3/3T, this one will offer a premium look for the smartphone. It has textured calfskin leather blend along with a classic matte finish making it easy to clean and also offers a comfortable grip.</string>
+    <string name="op_image_url">http://images.fonearena.com/blog/wp-content/uploads/2016/12/OnePlus-3-and-3T-leather-case-1.jpg</string>
+    <string name="op_summarytext">You\'ve shown interest in One Plus</string>
+
+    <string name="jet_titletext">Jet Airways Extends Sale, Offers Tickets Starting Rs. 990</string>
+    <string name="jet_subtext">Jet Airways has extended its promotional scheme offering fares starting as low as Rs. 990 on select domestic flights under economy class travel. Under Jet Airways\' \"Best Fares Forever\" offer, tickets must be purchased till December 27, 2016, for travel on or after January 4, 2017. \"Tickets must be purchased a minimum of 15 days prior departure,\" the airline said on its website, adding that limited seats are available under the offer on a first come, first serve basis.</string>
+    <string name="jet_image_url">http://i.ndtvimg.com/i/2016-11/jet-airways_650x400_51480009251.jpg</string>
+    <string name="jet_summarytext">You\'ve shown interest in Jet Airways</string>
+
+    <string name="note5_titletext">Lenovo Vibe K5 Note</string>
+    <string name="note5_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/g/4/7/lenovo-k5-note-pa330010in-original-imaekyazjhfqveze.jpeg</string>
+    <string name="note5_subtext">Exchange Offer</string>
+    <string name="note5_summarytext">From &#8377;11,999</string>
+
+    <string name="on7_titletext">Samsung On7</string>
+    <string name="on7_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/c/n/y/samsung-galaxy-on7-sm-g600f-original-imaecqkgfgtmaw2y.jpeg</string>
+    <string name="on7_subtext">&#8377;1,200 Off</string>
+    <string name="on7_summarytext">Now &#8377;8990</string>
+
+    <string name="pix_titletext">Google Pixel | XL</string>
+    <string name="pix_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/6/g/7/google-pixel-m4-original-imaemzzdh3azqsqb.jpeg</string>
+    <string name="pix_subtext">Exchange Offer</string>
+    <string name="pix_summarytext">From &#8377;57,000</string>
+
+    <string name="i6_titletext">Apple iPhone6</string>
+    <string name="i6_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/f/2/j/apple-iphone-6-original-imaeymdqs5gm5xkz.jpeg</string>
+    <string name="i6_subtext">&#8377;3,000 Off</string>
+    <string name="i6_summarytext">Now &#8377;33990</string>
+
+    <string name="s7_titletext">Samsung Galaxy S7</string>
+    <string name="s7_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/7/n/x/samsung-galaxy-s7-na-original-imaegmjszvhghyzc.jpeg</string>
+    <string name="s7_subtext">Just &#8377;43,000</string>
+    <string name="s7_summarytext">4 GB RAM, 32 GB ROM</string>
+
+    <string name="moto_titletext">Moto Turbo</string>
+    <string name="moto_image_url">https://rukminim1.flixcart.com/image/832/832/mobile/c/v/x/motorola-moto-turbo-xt1225-original-imae5fyxgh7qy6ag.jpeg</string>
+    <string name="moto_subtext">Exchange Offer</string>
+    <string name="moto_summarytext">Now &#8377;31990</string>
+    <string name="write_notes">write notes</string>
+
+
+    <string name="time_ago_now">few moments ago</string>
+    <string name="time_ago_full_seconds">%1$d seconds ago</string>
+    <string name="time_ago_full_minute">%1$d minute ago</string>
+    <string name="time_ago_full_minutes">%1$d minutes ago</string>
+    <string name="time_ago_full_hour">%1$d hour ago</string>
+    <string name="time_ago_full_hours">%1$d hours ago</string>
+    <string name="time_ago_full_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_full_days">%1$d days ago</string>
+    <string name="time_ago_full_month">%1$d month ago</string>
+    <string name="time_ago_full_months">%1$d months ago</string>
+
+    <string name="time_ago_seconds">%1$d sec ago</string>
+    <string name="time_ago_minute">%1$d min ago</string>
+    <string name="time_ago_minutes">%1$d min ago</string>
+    <string name="time_ago_hour">%1$d h ago</string>
+    <string name="time_ago_hours">%1$d h ago</string>
+    <string name="time_ago_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_days">%1$d d ago</string>
+    <string name="time_ago_month">%1$d m ago</string>
+    <string name="time_ago_months">%1$d m ago</string>
+
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="day_of_week_label_typeface">sans-serif</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="stop">Stop</string>
+    <string name="empty">Empty</string>
+    <string name="status_default">-</string>
+    <string name="stopped">Stopped!</string>
+    <string name="started">Started!</string>
+
+
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="settings">Settings</string>
+    <string name="settings_ringtone_option">Ringtone</string>
+    <string name="settings_snap_option">Snap to 5 min</string>
+    <string name="settings_theme_option">Theme</string>
+    <string name="settings_vibration_option">Vibrate</string>
+    <string name="settings_volume_increase_option">Fade-in sound</string>
+    <string name="tv_start_alarm_text">Tap here\nto set alarm</string>
+
+    <string name="hour">1 hour</string>
+    <string name="hours">%s hours</string>
+    <string name="minute">1 minute</string>
+    <string name="minutes">%s minutes</string>
+    <string name="video_image">video image</string>
+
+    <string-array name="alarm_set">
+        <item>This alarm is set for less than 1 minute from now</item>
+        <item>This alarm is set for %1$s from now</item>
+        <item>This alarm is set for %2$s from now</item>
+        <item>This alarm is set for %1$s and %2$s from now</item>
+    </string-array>
+    <string-array name="settings_themes">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="settings_themes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="video_type">
+        <item>select</item>
+        <item>entry</item>
+        <item>intermediate</item>
+        <item>expert</item>
+    </string-array>
+</resources>

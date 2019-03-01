@@ -1,0 +1,161 @@
+{
+  "project_info": {
+    "project_number": "462174086485",
+    "firebase_url": "https://hcoven-dff7d.firebaseio.com",
+    "project_id": "hcoven-dff7d",
+    "storage_bucket": "hcoven-dff7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462174086485:android:f87167cbbe5e9291",
+        "android_client_info": {
+          "package_name": "com.example.hp.fcoven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462174086485-l08lqdreq6n058l7lisoe93ddrknuim5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "24fa98ad3d9c4c2295f9aecc30c35afcfffeff67"
+          }
+        },
+        {
+          "client_id": "462174086485-c70fapmoidl9tfkh5m9lv6b68rupfima.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "5f381e8487b3fd385575102ecd26c481bb3abbaa"
+          }
+        },
+        {
+          "client_id": "462174086485-hgf85m88krl404gsf2l31k18adc96luu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "74e10e104cef6b63cdd3db32f763be4dc7d396e4"
+          }
+        },
+        {
+          "client_id": "462174086485-7vcsrc1037q53cb9beabfouncvu3fmkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "9720abb02302f33b0ec70d508ba787bff46a7b77"
+          }
+        },
+        {
+          "client_id": "462174086485-csb9d526htijqaj8c6gblev5uesu5gs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "06f998fac2fb6a0118abc455b85de7bdc7aa2dac"
+          }
+        },
+        {
+          "client_id": "462174086485-voukund0nh6921qek11hcftrgcba7h3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "5f1bd4dac71cf9724e5aff268595c59cee35dd3c"
+          }
+        },
+        {
+          "client_id": "462174086485-k0cgvustjhi3t224m4arm4r8de8lufnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.fcoven",
+            "certificate_hash": "c0962fb7578ed34b20b073560c44136aa3a76938"
+          }
+        },
+        {
+          "client_id": "462174086485-nm82sndigmp11m9bptumse96hu7v5h95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-gM_2SnwBSTE59mIkEKg_rRtmUcjTb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462174086485-nm82sndigmp11m9bptumse96hu7v5h95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462174086485-monljk07ov1psdcbdhe5djho7er3top2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.h2.h2fitness"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462174086485:android:51e02416ecc27923",
+        "android_client_info": {
+          "package_name": "com.h2.ifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462174086485-0j9s9rpj7nboe34o26joqdkrj72d41qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.h2.ifit",
+            "certificate_hash": "4457201eeb56121b10ef02329e17386b00402848"
+          }
+        },
+        {
+          "client_id": "462174086485-nm82sndigmp11m9bptumse96hu7v5h95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5-gM_2SnwBSTE59mIkEKg_rRtmUcjTb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462174086485-nm82sndigmp11m9bptumse96hu7v5h95.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "462174086485-monljk07ov1psdcbdhe5djho7er3top2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.h2.h2fitness"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

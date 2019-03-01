@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <import type="com.goldrushcomputing.inapptranslation.IATSwitch" />
+
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/border"
+    android:clickable="true"
+    android:orientation="vertical"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/urlimage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+         />
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/thumbnail"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textColor="@color/chef"
+        android:textSize="@dimen/name" />
+
+    <TextView
+        android:id="@+id/writter"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/thumbnail"
+        android:maxLines="1"
+        android:textColor="@color/chef"
+        android:textSize="@dimen/chef" />
+
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail"
+        android:layout_marginTop="@dimen/activity_padding_horizontal"
+        android:ellipsize="end"
+        android:maxLines="3"
+
+        android:textColor="@color/description"
+        android:textSize="@dimen/description" />
+
+
+</LinearLayout>
+</layout>

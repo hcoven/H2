@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+    <item
+        android:id="@+id/menu_sigout"
+        android:title="SignOut"
+        />
+
+    <item
+        android:id="@+id/menu_lanugage"
+        android:title="Language Setting"
+        />
+
+
+    <item
+        android:id="@+id/menu_friend_invite"
+        android:title="Invite Freinds"
+        />
+    <item
+        android:id="@+id/menu_add_friend"
+        android:title="Add Freinds"
+        />
+
+    <item
+        android:id="@+id/menu_type"
+        android:title="video Type"
+        />
+</menu>
