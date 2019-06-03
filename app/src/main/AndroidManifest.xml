@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.h2.fitness.h2fitness">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <permission android:name="android.permission.BROADCAST_SMS"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <uses-permission
+        android:name="android.permission.DEVICE_POWER"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!-- <uses-feature android:name="android.hardware.telephony" android:required="false" /> -->
+    <!-- Define your own permission to protect payment broadcast -->
+    <permission
+        android:name="com.h2.fitness.h2fitness.AdminPanel.activity.PAYMENT_BROADCAST_PERMISSION"
+        android:label="Read payment status"
+        android:protectionLevel="signature" />
+    <!-- "signature" permission granted automatically by system, without notifying user. -->
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <!--<uses-permission android:name="com.example.hp.fcoven.activity.PAYMENT_BROADCAST_PERMISSION" />-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:name=".alarm.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0a6fd6e84483371e8049783a99f5a14f1599ce0c"
+            />
+
+        <receiver
+            android:name="com.h2.fitness.h2fitness.helper.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    tools:ignore="BatteryLife" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        Implement you own BroadcastReceiver to track payment status,
+        should be protected by "signature" permission
+        -->
+
+        <receiver
+            android:name="com.h2.fitness.h2fitness.services.PaymentStatusReceiver"
+            android:permission="com.h2.fitness.h2fitness.PAYMENT_BROADCAST_PERMISSION"
+            android:protectionLevel="signature">
+
+            <intent-filter>
+                <action android:name="mp.info.PAYMENT_STATUS_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="mp.MpSMSReceiver"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="mp.MpService" />
+        <service android:name="mp.StatusUpdateService" />
+
+        <activity
+            android:name="mp.MpActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.h2.fitness.h2fitness.helper.FirebaseMessagingService"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".AppMain.splishScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppMain.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".AppMain.SignupActivity"
+            android:label="SignUP"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".AppMain.ResetPasswordActivity"
+            android:label="ResetPass"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".AppMain.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppMain.RecycleViewClickedActivtiy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppMain.VideoActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name="com.h2.fitness.h2fitness.AdminPanel.activity.AdminPanel" />
+        <activity
+            android:name="com.h2.fitness.h2fitness.AdminPanel.activity.AdminRecycleViewActivity"
+            android:label="Admin Screen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppMain.MainScreen"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            tools:ignore="MissingRegistered" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true"
+            tools:ignore="MissingRegistered">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AppMain.LanguageActivity" />
+        <activity android:name=".AppMain.ProfileActivity">
+            <intent-filter>
+                <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppMain.ChatActivity"
+            android:parentActivityName=".AppMain.MainScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Blog.BlogFullDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Calender.CalanderAcitivity"
+            android:label="Calander"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Calender.AddNotesActivity"
+            android:label="Add Notes"
+            android:parentActivityName=".Calender.CalanderAcitivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Calender.NotesPreviewActivity"
+            android:label="Add Notes"
+            android:parentActivityName=".Calender.AddNotesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name="com.h2.fitness.h2fitness.alarm.AActivity" />
+        <activity
+            android:name="com.h2.fitness.h2fitness.alarm.SettingsActivity"
+            android:label="@string/settings" />
+        <activity
+            android:name="com.h2.fitness.h2fitness.alarm.AlarmActivity"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name="com.h2.fitness.h2fitness.alarm.AlarmReceiver" />
+        <receiver android:name="com.h2.fitness.h2fitness.alarm.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.h2.fitness.h2fitness.alarm.AlarmService" />
+
+        <activity android:name=".AppMain.SelectType" />
+        <activity android:name=".Blog.FullBlog">
+        </activity>
+    </application>
+
+</manifest>

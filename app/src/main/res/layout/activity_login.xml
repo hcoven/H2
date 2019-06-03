@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <import type="com.goldrushcomputing.inapptranslation.IATSwitch" />
+
+    </data>
+<android.support.v4.widget.NestedScrollView
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AdminPanel.activity.activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_layout"
+        >
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:localizeHint="@{@string/hint_email}"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/btn_text_color"
+            android:textColorHint="@color/grey_200"
+            android:background="@drawable/bg_edittxt"/>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            app:localizeHint="@{@string/hint_password}"
+            android:inputType="textPassword"
+            android:textColor="@color/btn_text_color"
+            android:textColorHint="@color/grey_200"
+            android:background="@drawable/bg_edittxt"/>
+
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"
+            app:localizeText="@{@string/btn_login}"
+            android:textColor="@color/btn_text_color"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:id="@+id/socialmedia"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn"
+            android:textColor="@color/btn_text_color"
+            app:localizeText="@{@string/social_media_button}"
+            android:layout_gravity="center"
+
+           />
+
+        <Button
+            android:id="@+id/btn_reset_password"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            app:localizeText="@{@string/reset_password}"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text_color"
+            android:layout_gravity="center"
+          />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text_color"
+            android:textSize="15sp"
+            app:localizeText="@{@string/btn_link_to_register}" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="@color/accent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>
+    </layout>
